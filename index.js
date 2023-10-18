@@ -7,22 +7,22 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let teamCircle = {
-    color: 'white',
-    fillColor: '#fff',
+    color: 'gainsboro',
+    fillColor: '#DCDCDC',
     fillOpacity: 1,
     radius: 500
 }
 
 let officeCircle = {
-    color: 'green',
-    fillColor: '#7bdcb5',
+    color: 'tomato',
+    fillColor: '#FF6347',
     fillOpacity: 1,
     radius: 500
 }
 
 let soonCircle = {
-    color: 'blue',
-    fillColor: '#0000F5',
+    color: 'royalBlue',
+    fillColor: '#4169E1',
     fillOpacity: 1,
     radius: 500
 }
