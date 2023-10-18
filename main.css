@@ -5,3 +5,11 @@ body {
 #map { 
     height: 500px; 
 }
+
+.leaflet-tile {
+    filter: invert(1) grayscale(1) !important;
+}
+
+.leaflet-control-attribution {
+    display: none;
+}
